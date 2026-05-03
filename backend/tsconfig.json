@@ -11,7 +11,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@logger": ["./src/infrastructure/logger/logger.ts"]
     },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
