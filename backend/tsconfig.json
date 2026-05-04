@@ -11,6 +11,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "paths": {
+      "@/*": ["./src/*"],
       "@logger": ["./src/infrastructure/logger/logger.ts"],
       "@config": ["./src/infrastructure/config/config.ts"]
     },
